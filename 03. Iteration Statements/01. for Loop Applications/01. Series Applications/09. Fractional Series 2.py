@@ -11,4 +11,4 @@ for i in range(1,n+1):
 	print(term if i==1 else " + "+str(term), end='')
 	temp+= 2
 
-print("\nSum of the series: ",ssum)
+print("\nSum of the series: ",ssum) 

@@ -6,7 +6,7 @@ term,ssum=0,0
 
 print("\nThe Sequential Series till",n,"terms: ")
 for i in range(n):
-	term+=(10**i)*(i+1)
+	term+= (10**i)*(i+1)
 	ssum+=term
 	print(term if i==0 else " + "+str(term), end='')
 
