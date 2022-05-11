@@ -1,3 +1,6 @@
+import os
+os.system("cls")
+
 print("To double an integer digitally:")
 num = int(input("Enter an integer: "))
 
@@ -8,4 +11,4 @@ while(temp>0):
     temp//=10
 dig_double = num*(10**count)+num
 
-print("\nDigital double of",num,"is",dig_double)
+print("\nDigital double of",num,"is",dig_double, "\n")

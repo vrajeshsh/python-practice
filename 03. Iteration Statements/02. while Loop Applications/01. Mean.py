@@ -1,3 +1,6 @@
+import os
+os.system("cls")
+
 print("To calculate the mean of digits of an integer:")
 num = int(input("Enter an integer: "))
 

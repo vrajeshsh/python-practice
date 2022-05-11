@@ -1,5 +1,4 @@
 import os
-from socketserver import ThreadingTCPServer
 os.system("cls")
 
 print("To find the greatest odd and smallest even digit and calculate difference of comibation:")
