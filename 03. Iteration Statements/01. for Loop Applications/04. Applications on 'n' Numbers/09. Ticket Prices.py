@@ -11,23 +11,19 @@ for i in range(1,n+1):
     age = float(input())
     if age<4:
         count1+=1
-        price+=0
     elif age<=18:
         count2+=1
-        price+=30
     elif age<=59:
         count3+=1
-        price+=40
     else:
         count4+=1
-        price+=0
+        
+price = count2*30+count3*40
 
 print("\nCATEGORY\tNO. OF PEOPLE\nBelow 4\t\t",count1,
         "\n4-18\t\t",count2,
         "\n19-59\t\t",count3,
         "\nAbove 59\t",count4,
-        "\n\nTotal Amount: Rs",price)
-        
-        
-    
-    
+        "\n\nTotal Amount: Rs",price)   
+# Remove the price calculation from each if check block and place it 
+# somewhere else ONCE only
