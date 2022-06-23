@@ -1,5 +1,3 @@
-from email.headerregistry import UniqueSingleAddressHeader
-from operator import indexOf
 import os
 os.system("cls")
 
